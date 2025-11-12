@@ -148,17 +148,6 @@ def close_current_popup():
     logger.info("✅ 当前商品弹窗已关闭")
 
 # -----------------------------
-# 检查是否是退出命令
-# -----------------------------
-def is_exit_command(text):
-    exit_keywords = ["退出", "停止", "结束", "关闭", "quit", "exit", "stop"]
-    text_lower = text.lower()
-    for keyword in exit_keywords:
-        if keyword in text_lower:
-            return True
-    return False
-
-# -----------------------------
 # 处理GUI队列中的操作（需要在主线程中调用）
 # -----------------------------
 def process_gui_queue():
@@ -203,29 +192,6 @@ def process_gui_queue():
                     except:
                         pass
                 window_manager.active_windows.clear()
-                
-            elif operation == "exit_app":
-                logger.info("🛑 应用程序正在退出...")
-                # 关闭所有窗口
-                try:
-                    # 关闭当前弹窗
-                    if conversation_state["active_popup"]:
-                        conversation_state["active_popup"].window.destroy()
-                        conversation_state["active_popup"] = None
-                    
-                    # 关闭所有活动窗口
-                    for window in window_manager.active_windows[:]:
-                        try:
-                            window.window.destroy()
-                        except:
-                            pass
-                    window_manager.active_windows.clear()
-                    
-                    # 退出程序
-                    root.quit()
-                    os._exit(0)
-                except Exception as e:
-                    logger.error(f"❌ 退出应用时出错: {e}")
                 
     except python_queue.Empty:
         pass
@@ -509,13 +475,7 @@ def start_asr_loop(recognizer):
                     text = stream.result.text
                     if text.strip():
                         logger.info(f"🗣️ 识别到语音: {text.strip()}")
-                        # 检查是否是退出命令
-                        if is_exit_command(text.strip()):
-                            logger.info("🛑 收到退出命令，正在停止语音识别...")
-                            # 发送退出信号到主线程
-                            gui_queue.put(("exit_app", None))
-                        else:
-                            find_product_by_query(text.strip())
+                        find_product_by_query(text.strip())
             except KeyboardInterrupt:
                 logger.info("🛑 停止语音识别")
                 break
