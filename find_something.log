@@ -3163,3 +3163,237 @@
 2025-11-13 01:08:50,012 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.789)
 2025-11-13 01:08:52,626 - root - INFO - 商品窗口已关闭
 2025-11-13 01:08:53,017 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.854)
+2025-11-13 01:12:30,561 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-13 01:12:30,561 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-13 01:12:30,714 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-13 01:12:30,816 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-13 01:12:30,818 - camera_capture - WARNING - 无法打开摄像头 0，正在查找其他可用摄像头...
+2025-11-13 01:12:30,821 - camera_capture - WARNING - 未找到任何可用的摄像头
+2025-11-13 01:12:30,821 - camera_capture - INFO - 启用回退模式
+2025-11-13 01:12:30,823 - root - WARNING - 摄像头不可用，将在回退模式下运行
+2025-11-13 01:12:30,824 - voice - INFO - 语音监听已启动
+2025-11-13 01:12:30,824 - controller - INFO - 识别循环开始
+2025-11-13 01:12:30,824 - root - INFO - 应用程序已启动
+2025-11-13 01:12:50,919 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-13 01:12:50,919 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-13 01:12:51,074 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-13 01:12:51,175 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-13 01:12:51,382 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-13 01:12:51,383 - voice - INFO - 语音监听已启动
+2025-11-13 01:12:51,383 - controller - INFO - 识别循环开始
+2025-11-13 01:12:51,383 - root - INFO - 应用程序已启动
+2025-11-13 01:12:51,727 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-13 01:12:52,125 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.822)
+2025-11-13 01:12:55,527 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.844)
+2025-11-13 01:12:58,533 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.856)
+2025-11-13 01:13:01,638 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.847)
+2025-11-13 01:13:04,743 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.844)
+2025-11-13 01:13:07,849 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.846)
+2025-11-13 01:13:10,854 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.845)
+2025-11-13 01:13:13,960 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.852)
+2025-11-13 01:13:17,066 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.883)
+2025-11-13 01:13:17,067 - controller - INFO - 显示产品: 安踏黄色长袖, 相似度: 0.883, 价格: ¥219.0
+2025-11-13 01:13:20,172 - vision_processor - INFO - 最佳匹配: 安踏黑色长裤 (相似度: 0.802)
+2025-11-13 01:13:23,277 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.845)
+2025-11-13 01:13:26,382 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.953)
+2025-11-13 01:13:29,489 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.791)
+2025-11-13 01:13:32,495 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.838)
+2025-11-13 01:13:35,501 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.810)
+2025-11-13 01:13:38,607 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.783)
+2025-11-13 01:13:41,613 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.796)
+2025-11-13 01:13:44,618 - vision_processor - INFO - 最佳匹配: 安踏黑色长裤 (相似度: 0.820)
+2025-11-13 01:13:47,624 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.840)
+2025-11-13 01:13:50,630 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.936)
+2025-11-13 01:13:53,635 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.780)
+2025-11-13 01:13:56,640 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.789)
+2025-11-13 01:13:59,646 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.795)
+2025-11-13 01:14:02,651 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.788)
+2025-11-13 01:14:05,654 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.853)
+2025-11-13 01:14:08,760 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.894)
+2025-11-13 01:14:11,865 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.806)
+2025-11-13 01:14:14,871 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.835)
+2025-11-13 01:14:17,876 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.821)
+2025-11-13 01:14:20,881 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.830)
+2025-11-13 01:14:23,886 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.838)
+2025-11-13 01:14:26,991 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.832)
+2025-11-13 01:14:30,096 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.838)
+2025-11-13 01:14:33,201 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.831)
+2025-11-13 01:14:36,306 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.778)
+2025-11-13 01:14:39,412 - vision_processor - INFO - 最佳匹配: 耐克红色短袖 (相似度: 0.723)
+2025-11-13 01:14:42,418 - vision_processor - INFO - 最佳匹配: 安踏黑色短袖 (相似度: 0.802)
+2025-11-13 01:14:45,424 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.882)
+2025-11-13 01:14:48,530 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.813)
+2025-11-13 01:14:51,636 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.809)
+2025-11-13 01:14:54,742 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.821)
+2025-11-13 01:14:57,847 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.815)
+2025-11-13 01:15:00,953 - vision_processor - INFO - 最佳匹配: 耐克绿色短袖 (相似度: 0.876)
+2025-11-13 01:15:04,059 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.859)
+2025-11-13 08:55:46,317 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-13 08:55:46,317 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-13 08:55:46,500 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-13 08:55:46,602 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-13 08:55:46,813 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-13 08:55:46,813 - voice - INFO - 语音监听已启动
+2025-11-13 08:55:46,814 - controller - INFO - 识别循环开始
+2025-11-13 08:55:46,814 - root - INFO - 应用程序已启动
+2025-11-13 08:55:48,246 - vision_processor - INFO - 最佳匹配: 安踏黑色长袖 (相似度: 0.755)
+2025-11-13 08:55:51,355 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.919)
+2025-11-13 08:55:54,361 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.870)
+2025-11-13 08:55:57,367 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.954)
+2025-11-13 08:56:00,473 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.884)
+2025-11-13 08:56:03,579 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.834)
+2025-11-13 08:56:03,580 - controller - INFO - 显示产品: 耐克黄色短袖, 相似度: 0.834, 价格: ¥199.0
+2025-11-13 08:56:06,786 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.809)
+2025-11-13 08:56:09,792 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.922)
+2025-11-13 08:56:12,798 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.927)
+2025-11-13 08:56:12,799 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.927, 价格: ¥219.0
+2025-11-13 08:56:15,804 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.870)
+2025-11-13 08:56:18,809 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.750)
+2025-11-13 08:56:21,915 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.822)
+2025-11-13 08:56:25,021 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.974)
+2025-11-13 08:56:28,027 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.912)
+2025-11-13 08:56:31,033 - vision_processor - INFO - 最佳匹配: 耐克白色短袖 (相似度: 0.836)
+2025-11-13 08:56:34,139 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.967)
+2025-11-13 08:56:37,346 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.829)
+2025-11-13 08:56:39,983 - root - INFO - 商品窗口已关闭
+2025-11-13 08:56:40,352 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.812)
+2025-11-13 08:56:43,358 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.873)
+2025-11-13 08:56:46,845 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.859)
+2025-11-13 08:56:49,851 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.773)
+2025-11-13 08:56:50,278 - root - INFO - 商品窗口已关闭
+2025-11-13 08:56:53,007 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.795)
+2025-11-13 08:56:56,114 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.786)
+2025-11-13 08:56:59,271 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.856)
+2025-11-13 08:57:02,383 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.848)
+2025-11-14 11:49:22,180 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-14 11:49:22,181 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-14 11:49:22,312 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-14 11:49:22,413 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-14 11:49:22,623 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-14 11:49:22,624 - voice - INFO - 语音监听已启动
+2025-11-14 11:49:22,624 - controller - INFO - 识别循环开始
+2025-11-14 11:49:22,624 - root - INFO - 应用程序已启动
+2025-11-14 11:49:23,460 - vision_processor - INFO - 最佳匹配: 安踏红色短袖 (相似度: 0.791)
+2025-11-14 11:49:27,094 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.986)
+2025-11-14 11:49:30,200 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.860)
+2025-11-14 11:49:33,306 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.857)
+2025-11-14 11:49:36,312 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.839)
+2025-11-14 11:49:39,418 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.819)
+2025-11-14 11:49:42,524 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.842)
+2025-11-14 11:49:45,530 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.862)
+2025-11-14 11:49:48,637 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.863)
+2025-11-14 11:49:48,638 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.863, 价格: ¥219.0
+2025-11-14 11:49:51,742 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.788)
+2025-11-14 11:49:54,849 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.976)
+2025-11-14 11:49:57,955 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.988)
+2025-11-14 11:50:01,061 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.805)
+2025-11-14 11:50:04,168 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.784)
+2025-11-14 11:50:07,274 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.783)
+2025-11-14 11:50:10,380 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.780)
+2025-11-14 11:50:13,487 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.777)
+2025-11-14 11:50:16,493 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.766)
+2025-11-14 11:50:19,599 - vision_processor - INFO - 最佳匹配: 安踏白色长裤 (相似度: 0.792)
+2025-11-14 11:50:22,705 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.814)
+2025-11-14 11:50:25,912 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.905)
+2025-11-14 11:50:29,018 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.850)
+2025-11-14 11:50:32,124 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.782)
+2025-11-14 11:50:35,230 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.796)
+2025-11-14 11:50:38,336 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.827)
+2025-11-14 11:50:41,543 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.978)
+2025-11-14 11:50:42,025 - root - INFO - 商品窗口已关闭
+2025-11-14 11:50:44,548 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.978)
+2025-11-14 11:57:28,515 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-14 11:57:28,515 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-14 11:57:28,669 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-14 11:57:28,771 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-14 11:57:28,974 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-14 11:57:28,974 - voice - INFO - 语音监听已启动
+2025-11-14 11:57:28,974 - controller - INFO - 识别循环开始
+2025-11-14 11:57:28,975 - root - INFO - 应用程序已启动
+2025-11-14 11:57:29,318 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-14 11:57:30,007 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.985)
+2025-11-14 11:57:33,408 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.987)
+2025-11-14 11:57:36,415 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.985)
+2025-11-14 11:57:36,416 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.985, 价格: ¥219.0
+2025-11-14 11:57:39,518 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.983)
+2025-11-14 11:57:42,624 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.984)
+2025-11-14 11:57:45,730 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.982)
+2025-11-14 11:57:45,731 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.982, 价格: ¥219.0
+2025-11-14 11:57:48,836 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.982)
+2025-11-14 11:57:51,941 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.959)
+2025-11-14 11:57:55,047 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.936)
+2025-11-14 11:57:55,048 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.936, 价格: ¥219.0
+2025-11-14 11:57:58,152 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.865)
+2025-11-14 11:58:01,258 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.810)
+2025-11-14 11:58:04,364 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.805)
+2025-11-14 11:58:07,470 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.775)
+2025-11-14 11:58:10,574 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.773)
+2025-11-14 11:58:13,680 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.818)
+2025-11-14 11:58:16,686 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.802)
+2025-11-14 11:58:19,692 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.978)
+2025-11-14 11:58:22,697 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.983)
+2025-11-14 11:58:22,853 - root - INFO - 商品窗口已关闭
+2025-11-14 11:58:25,702 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.981)
+2025-11-14 11:59:57,175 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-14 11:59:57,175 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-14 11:59:57,375 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-14 11:59:57,477 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-14 11:59:57,679 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-14 11:59:57,680 - voice - INFO - 语音监听已启动
+2025-11-14 11:59:57,680 - controller - INFO - 识别循环开始
+2025-11-14 11:59:57,680 - root - INFO - 应用程序已启动
+2025-11-14 11:59:58,025 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-14 11:59:58,422 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.986)
+2025-11-14 12:00:01,668 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.981)
+2025-11-14 12:00:04,774 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.984)
+2025-11-14 12:00:04,776 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.984, 价格: ¥219.0
+2025-11-14 12:00:07,981 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.984)
+2025-11-14 12:00:11,087 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.986)
+2025-11-14 12:00:14,294 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.978)
+2025-11-14 12:00:14,295 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.978, 价格: ¥219.0
+2025-11-14 12:00:17,400 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.974)
+2025-11-14 12:00:20,506 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.980)
+2025-11-14 12:00:23,612 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.985)
+2025-11-14 12:00:23,613 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.985, 价格: ¥219.0
+2025-11-14 12:00:26,718 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.984)
+2025-11-14 12:00:29,824 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.985)
+2025-11-14 12:00:32,930 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.982)
+2025-11-14 12:00:32,931 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.982, 价格: ¥219.0
+2025-11-14 12:00:36,036 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.981)
+2025-11-14 12:00:39,142 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.772)
+2025-11-14 12:00:42,248 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.766)
+2025-11-14 12:00:45,354 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.816)
+2025-11-14 12:00:48,460 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.829)
+2025-11-14 12:00:51,566 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.833)
+2025-11-14 12:00:54,672 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.836)
+2025-11-14 12:00:57,778 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.832)
+2025-11-14 12:01:00,884 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.834)
+2025-11-14 12:01:03,990 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.840)
+2025-11-14 12:01:07,096 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.836)
+2025-11-14 12:01:10,202 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.833)
+2025-11-14 12:01:13,307 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.909)
+2025-11-14 12:01:16,413 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.963)
+2025-11-14 12:01:19,419 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.979)
+2025-11-14 12:01:22,575 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.979)
+2025-11-14 12:01:25,681 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.978)
+2025-11-15 13:57:53,234 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 13:57:53,234 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 13:57:53,353 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 13:57:53,454 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 13:57:53,658 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 13:57:53,659 - voice - INFO - 语音监听已启动
+2025-11-15 13:57:53,659 - controller - INFO - 识别循环开始
+2025-11-15 13:57:53,659 - root - INFO - 应用程序已启动
+2025-11-15 13:57:54,498 - vision_processor - INFO - 最佳匹配: 安踏白色长裤 (相似度: 0.821)
+2025-11-15 13:57:58,209 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.777)
+2025-11-15 14:36:19,554 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 14:36:19,556 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 14:36:19,733 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 14:36:19,835 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 14:36:20,040 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 14:36:20,041 - voice - INFO - 语音监听已启动
+2025-11-15 14:36:20,041 - controller - INFO - 识别循环开始
+2025-11-15 14:36:20,041 - root - INFO - 应用程序已启动
+2025-11-15 14:36:20,386 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 14:36:21,084 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.800)
+2025-11-15 14:36:24,803 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.802)

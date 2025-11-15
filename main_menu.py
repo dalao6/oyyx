@@ -12,6 +12,10 @@ class MainMenuUI:
         self.root.geometry("500x400")
         self.root.configure(bg="#f0f0f0")
         
+        # 保存正在运行的进程和相关信息
+        self.running_process = None
+        self.current_mode = None  # 记录当前运行的模式
+        
         # 设置窗口居中
         self.center_window()
         
@@ -105,44 +109,88 @@ class MainMenuUI:
         
     def voice_shopping(self):
         """启动语音购物功能"""
-        self.run_script("DuoMotai/fin.py")
+        self.run_script("DuoMotai/fin.py", "voice")
         
     def image_shopping(self):
         """启动识别相似商品购物功能"""
-        messagebox.showinfo("提示", "识别相似商品购物功能正在开发中...")
-        # 这里可以添加启动图像购物功能的代码
-        # self.run_script("DuoMotai/image_shopping.py")
+        self.run_script("find_something/main_find.py", "image")
         
+    def _async_wait_for_process_exit(self, timeout=3000):
+        """异步等待子进程退出，不阻塞界面"""
+        if not self.running_process:
+            return
+
+        # 如果进程已经退出，清理状态
+        if self.running_process.poll() is not None:
+            self.running_process = None
+            return
+
+        # 若仍未退出，则继续等待
+        self.root.after(100, self._async_wait_for_process_exit)
+
+    def _force_kill_process(self):
+        """强制结束子进程（用于超时）"""
+        if self.running_process and self.running_process.poll() is None:
+            try:
+                self.running_process.kill()
+            except Exception:
+                pass
+
+            self.running_process = None
+
     def return_to_main(self):
-        """返回主页面"""
-        messagebox.showinfo("提示", "已经在主页面了")
+        """返回主页面，不阻塞 UI"""
+        if self.running_process and self.running_process.poll() is None:
+            try:
+                self.running_process.terminate()
+
+                # 异步等待子进程退出
+                self._async_wait_for_process_exit()
+
+                # 设置超时强杀（3秒）
+                self.root.after(3000, self._force_kill_process)
+
+            except Exception as e:
+                messagebox.showerror("错误", f"停止进程出错: {str(e)}")
+        else:
+            messagebox.showinfo("提示", "没有正在运行的程序")
         
     def exit_system(self):
-        """退出系统"""
+        """退出系统（同样不阻塞 UI）"""
         if messagebox.askokcancel("确认", "确定要退出系统吗？"):
+            if self.running_process and self.running_process.poll() is None:
+                try:
+                    self.running_process.terminate()
+                    self._async_wait_for_process_exit()
+                    self.root.after(3000, self._force_kill_process)
+                except:
+                    pass
+
             self.root.quit()
             self.root.destroy()
             
-    def run_script(self, script_name):
-        """运行指定的Python脚本"""
+    def run_script(self, script_name, mode):
+        """运行指定的Python脚本（不阻塞 UI）"""
         try:
             script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), script_name)
             if os.path.exists(script_path):
-                # 在新线程中运行脚本，避免阻塞UI
-                thread = threading.Thread(target=self._execute_script, args=(script_path,))
-                thread.daemon = True
-                thread.start()
+
+                # 若已有进程，安全终止
+                if self.running_process and self.running_process.poll() is None:
+                    self.running_process.terminate()
+                    self._async_wait_for_process_exit()
+                    self.root.after(3000, self._force_kill_process)
+
+                self.current_mode = mode
+
+                # 启动新进程
+                self.running_process = subprocess.Popen([sys.executable, script_path])
+
             else:
                 messagebox.showerror("错误", f"找不到脚本文件: {script_name}")
+
         except Exception as e:
             messagebox.showerror("错误", f"启动脚本时出错: {str(e)}")
-            
-    def _execute_script(self, script_path):
-        """在子进程中执行脚本"""
-        try:
-            subprocess.Popen([sys.executable, script_path])
-        except Exception as e:
-            messagebox.showerror("错误", f"执行脚本时出错: {str(e)}")
         
     def run(self):
         """运行主界面"""
