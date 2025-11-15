@@ -3397,3 +3397,1261 @@
 2025-11-15 14:36:20,386 - camera_capture - WARNING - 无法读取摄像头帧
 2025-11-15 14:36:21,084 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.800)
 2025-11-15 14:36:24,803 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.802)
+2025-11-15 14:46:58,431 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 14:46:58,431 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 14:46:58,595 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 14:46:58,697 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 14:46:58,887 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 14:46:58,887 - voice - INFO - 语音监听已启动
+2025-11-15 14:46:58,888 - controller - INFO - 识别循环开始
+2025-11-15 14:46:58,888 - root - INFO - 应用程序已启动
+2025-11-15 14:46:59,231 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 14:46:59,628 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.795)
+2025-11-15 14:47:05,569 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 14:47:05,569 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 14:47:05,721 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 14:47:05,823 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 14:47:06,012 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 14:47:06,013 - voice - INFO - 语音监听已启动
+2025-11-15 14:47:06,013 - controller - INFO - 识别循环开始
+2025-11-15 14:47:06,013 - root - INFO - 应用程序已启动
+2025-11-15 14:47:06,357 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 14:47:06,951 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 14:47:10,200 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.800)
+2025-11-15 14:47:13,306 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.785)
+2025-11-15 14:47:16,412 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.796)
+2025-11-15 14:47:19,518 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.778)
+2025-11-15 14:47:22,724 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.786)
+2025-11-15 14:47:25,830 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.780)
+2025-11-15 14:47:28,935 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.839)
+2025-11-15 14:47:32,040 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.883)
+2025-11-15 14:47:35,146 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.846)
+2025-11-15 14:47:38,252 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.798)
+2025-11-15 14:47:41,358 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.862)
+2025-11-15 14:47:44,464 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.884)
+2025-11-15 14:47:47,570 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.869)
+2025-11-15 14:47:50,676 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.916)
+2025-11-15 14:47:50,684 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.916, 价格: ¥219.0
+2025-11-15 14:47:53,780 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.886)
+2025-11-15 14:47:56,885 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.876)
+2025-11-15 14:47:59,992 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.944)
+2025-11-15 14:47:59,993 - controller - INFO - 显示产品: 安踏白色长袖, 相似度: 0.944, 价格: ¥219.0
+2025-11-15 14:48:03,198 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.979)
+2025-11-15 14:48:06,304 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.835)
+2025-11-15 14:48:09,409 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.952)
+2025-11-15 14:48:12,515 - vision_processor - INFO - 最佳匹配: 安踏白色长袖 (相似度: 0.988)
+2025-11-15 14:48:15,059 - root - INFO - 商品窗口已关闭
+2025-11-15 14:48:15,671 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.796)
+2025-11-15 14:48:15,973 - root - INFO - 商品窗口已关闭
+2025-11-15 14:48:18,676 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.786)
+2025-11-15 14:48:21,681 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.798)
+2025-11-15 14:48:24,787 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.789)
+2025-11-15 14:48:27,892 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.806)
+2025-11-15 14:48:30,897 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.857)
+2025-11-15 14:48:33,902 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.851)
+2025-11-15 14:48:37,007 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.859)
+2025-11-15 14:48:37,009 - controller - INFO - 显示产品: 耐克白色长裤, 相似度: 0.859, 价格: ¥299.0
+2025-11-15 14:48:40,013 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.857)
+2025-11-15 14:48:43,019 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.854)
+2025-11-15 14:48:46,024 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.650)
+2025-11-15 14:48:49,029 - vision_processor - INFO - 最佳匹配: 耐克白色短袖 (相似度: 0.823)
+2025-11-15 14:48:52,034 - vision_processor - INFO - 最佳匹配: 耐克白色短袖 (相似度: 0.847)
+2025-11-15 14:48:55,140 - vision_processor - INFO - 最佳匹配: 耐克白色短袖 (相似度: 0.802)
+2025-11-15 14:48:58,245 - vision_processor - INFO - 最佳匹配: 耐克白色短袖 (相似度: 0.806)
+2025-11-15 14:49:01,350 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.949)
+2025-11-15 14:49:04,456 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.774)
+2025-11-15 14:49:07,562 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.786)
+2025-11-15 14:49:08,123 - root - INFO - 商品窗口已关闭
+2025-11-15 14:49:10,666 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.797)
+2025-11-15 14:49:13,772 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.799)
+2025-11-15 14:57:21,746 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 14:57:21,746 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 14:57:21,860 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 14:57:21,961 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 14:57:22,150 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 14:57:22,150 - voice - INFO - 语音监听已启动
+2025-11-15 14:57:22,150 - controller - INFO - 识别循环开始
+2025-11-15 14:57:22,150 - root - INFO - 应用程序已启动
+2025-11-15 14:57:22,495 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 14:57:23,184 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.816)
+2025-11-15 14:57:26,391 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.790)
+2025-11-15 14:57:29,496 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.769)
+2025-11-15 14:57:32,602 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.848)
+2025-11-15 14:57:35,707 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.840)
+2025-11-15 14:57:38,812 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.841)
+2025-11-15 14:57:41,918 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.834)
+2025-11-15 14:57:45,123 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.857)
+2025-11-15 14:57:48,227 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.798)
+2025-11-15 14:57:51,332 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.830)
+2025-11-15 14:57:54,437 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.828)
+2025-11-15 14:57:57,543 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.825)
+2025-11-15 14:58:00,749 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.826)
+2025-11-15 14:58:03,854 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.827)
+2025-11-15 14:58:06,960 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.831)
+2025-11-15 14:58:10,165 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.838)
+2025-11-15 14:58:13,272 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.828)
+2025-11-15 14:58:16,477 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.836)
+2025-11-15 14:58:19,683 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.834)
+2025-11-15 14:58:22,788 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.826)
+2025-11-15 14:58:25,893 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.819)
+2025-11-15 14:58:29,098 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.799)
+2025-11-15 14:58:32,203 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.856)
+2025-11-15 14:58:35,309 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.860)
+2025-11-15 14:58:38,514 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.861)
+2025-11-15 14:58:41,619 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.861)
+2025-11-15 14:58:44,824 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.862)
+2025-11-15 14:58:44,825 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.862, 价格: ¥219.0
+2025-11-15 14:58:48,030 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.862)
+2025-11-15 14:58:51,136 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.860)
+2025-11-15 14:58:54,241 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.857)
+2025-11-15 14:58:54,242 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.857, 价格: ¥219.0
+2025-11-15 14:58:57,346 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.858)
+2025-11-15 14:59:00,451 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.859)
+2025-11-15 14:59:03,656 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.860)
+2025-11-15 14:59:03,657 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.860, 价格: ¥219.0
+2025-11-15 14:59:06,762 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.860)
+2025-11-15 14:59:09,867 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.868)
+2025-11-15 14:59:13,072 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.832)
+2025-11-15 14:59:13,073 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.832, 价格: ¥219.0
+2025-11-15 14:59:16,278 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.826)
+2025-11-15 14:59:19,383 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.859)
+2025-11-15 14:59:22,589 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.839)
+2025-11-15 14:59:25,694 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.789)
+2025-11-15 14:59:28,799 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.797)
+2025-11-15 14:59:32,005 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.796)
+2025-11-15 14:59:35,111 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 14:59:38,317 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.788)
+2025-11-15 14:59:41,422 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 14:59:44,628 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.785)
+2025-11-15 14:59:47,733 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.808)
+2025-11-15 14:59:50,839 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.795)
+2025-11-15 14:59:53,944 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.790)
+2025-11-15 14:59:57,049 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.781)
+2025-11-15 15:00:00,255 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.787)
+2025-11-15 15:00:03,361 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.789)
+2025-11-15 15:00:06,467 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.781)
+2025-11-15 15:00:09,673 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.813)
+2025-11-15 15:00:12,778 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.812)
+2025-11-15 15:00:15,883 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.818)
+2025-11-15 15:00:19,089 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.866)
+2025-11-15 15:00:22,194 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.775)
+2025-11-15 15:00:25,199 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.774)
+2025-11-15 15:00:28,304 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.788)
+2025-11-15 15:00:31,410 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.788)
+2025-11-15 15:00:34,515 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.795)
+2025-11-15 15:00:37,520 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.792)
+2025-11-15 15:00:40,625 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.811)
+2025-11-15 15:00:43,731 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.779)
+2025-11-15 15:00:46,736 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.785)
+2025-11-15 15:00:49,742 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.777)
+2025-11-15 15:00:51,915 - root - INFO - 商品窗口已关闭
+2025-11-15 15:00:52,847 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.779)
+2025-11-15 15:00:55,951 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:00:59,056 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.779)
+2025-11-15 15:01:02,162 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.799)
+2025-11-15 15:01:05,167 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:01:08,172 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.784)
+2025-11-15 15:01:11,277 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.803)
+2025-11-15 15:01:14,382 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.800)
+2025-11-15 15:01:17,387 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.803)
+2025-11-15 15:01:20,492 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:01:23,597 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.804)
+2025-11-15 15:01:26,602 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.803)
+2025-11-15 15:01:29,607 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.804)
+2025-11-15 15:01:32,612 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.801)
+2025-11-15 15:01:35,617 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.796)
+2025-11-15 15:14:00,312 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:14:00,313 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 15:14:00,428 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:14:00,529 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:14:00,733 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:14:00,734 - voice - INFO - 语音监听已启动
+2025-11-15 15:14:00,734 - controller - INFO - 识别循环开始
+2025-11-15 15:14:00,734 - root - INFO - 应用程序已启动
+2025-11-15 15:14:01,079 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:14:01,775 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.801)
+2025-11-15 15:14:05,331 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.856)
+2025-11-15 15:14:08,335 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.770)
+2025-11-15 15:14:11,441 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.815)
+2025-11-15 15:14:14,547 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.816)
+2025-11-15 15:14:17,652 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.819)
+2025-11-15 15:14:20,658 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.833)
+2025-11-15 15:14:23,764 - vision_processor - INFO - 最佳匹配: 安踏黑色长裤 (相似度: 0.821)
+2025-11-15 15:14:26,970 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.835)
+2025-11-15 15:14:30,176 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.837)
+2025-11-15 15:14:33,283 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.816)
+2025-11-15 15:14:36,388 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.815)
+2025-11-15 15:14:39,393 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.805)
+2025-11-15 15:14:42,499 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.983)
+2025-11-15 15:14:45,605 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.815)
+2025-11-15 15:14:48,712 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.823)
+2025-11-15 15:14:51,817 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.814)
+2025-11-15 15:14:54,923 - vision_processor - INFO - 最佳匹配: 耐克绿色短袖 (相似度: 0.805)
+2025-11-15 15:14:57,927 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.824)
+2025-11-15 15:15:01,033 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.790)
+2025-11-15 15:15:04,138 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.840)
+2025-11-15 15:15:07,243 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.830)
+2025-11-15 15:15:10,249 - vision_processor - INFO - 最佳匹配: 耐克白色长裤 (相似度: 0.809)
+2025-11-15 15:15:13,354 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.904)
+2025-11-15 15:15:16,460 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.826)
+2025-11-15 15:15:19,566 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.866)
+2025-11-15 15:15:22,772 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.866)
+2025-11-15 15:15:22,773 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.866, 价格: ¥219.0
+2025-11-15 15:15:25,877 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.869)
+2025-11-15 15:15:28,983 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.872)
+2025-11-15 15:15:32,089 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.808)
+2025-11-15 15:15:35,095 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.827)
+2025-11-15 15:15:38,201 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.801)
+2025-11-15 15:15:41,306 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.874)
+2025-11-15 15:15:44,412 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.871)
+2025-11-15 15:15:47,518 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.863)
+2025-11-15 15:15:50,524 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.872)
+2025-11-15 15:15:50,525 - controller - INFO - 显示产品: 安踏蓝色长袖, 相似度: 0.872, 价格: ¥219.0
+2025-11-15 15:15:53,528 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.803)
+2025-11-15 15:15:56,634 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.790)
+2025-11-15 15:15:59,739 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.777)
+2025-11-15 15:16:02,845 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.773)
+2025-11-15 15:29:27,508 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:29:27,508 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 15:29:27,617 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:29:27,718 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:29:27,909 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:29:27,909 - voice - INFO - 语音监听已启动
+2025-11-15 15:29:27,909 - controller - INFO - 识别循环开始
+2025-11-15 15:29:27,910 - root - INFO - 应用程序已启动
+2025-11-15 15:29:28,253 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:29:28,942 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.761)
+2025-11-15 15:29:32,101 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.822)
+2025-11-15 15:29:35,308 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:29:38,413 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.821)
+2025-11-15 15:29:41,519 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.734)
+2025-11-15 15:29:44,624 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.830)
+2025-11-15 15:29:47,730 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.844)
+2025-11-15 15:29:50,836 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.831)
+2025-11-15 15:29:53,942 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.991)
+2025-11-15 15:29:56,948 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.827)
+2025-11-15 15:30:00,052 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.849)
+2025-11-15 15:30:03,158 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.854)
+2025-11-15 15:30:06,162 - vision_processor - INFO - 最佳匹配: 耐克红色短袖 (相似度: 0.842)
+2025-11-15 15:30:09,168 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.833)
+2025-11-15 15:30:12,273 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.844)
+2025-11-15 15:30:15,380 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.857)
+2025-11-15 15:30:18,485 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.753)
+2025-11-15 15:30:21,591 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.872)
+2025-11-15 15:30:24,697 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.904)
+2025-11-15 15:30:27,803 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.962)
+2025-11-15 15:30:30,909 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.862)
+2025-11-15 15:30:33,914 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.771)
+2025-11-15 15:30:37,070 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.816)
+2025-11-15 15:36:04,583 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:36:04,583 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 15:36:04,694 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:36:04,795 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:36:04,985 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:36:04,985 - voice - INFO - 语音监听已启动
+2025-11-15 15:36:04,986 - controller - INFO - 识别循环开始
+2025-11-15 15:36:04,986 - root - INFO - 应用程序已启动
+2025-11-15 15:36:05,330 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:36:06,019 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.890)
+2025-11-15 15:36:06,019 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,269 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.885)
+2025-11-15 15:36:06,269 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,371 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.879)
+2025-11-15 15:36:06,371 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,473 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.874)
+2025-11-15 15:36:06,473 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,575 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.875)
+2025-11-15 15:36:06,575 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,677 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.869)
+2025-11-15 15:36:06,677 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,779 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.865)
+2025-11-15 15:36:06,779 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,882 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.864)
+2025-11-15 15:36:06,882 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:06,984 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.862)
+2025-11-15 15:36:06,985 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,087 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.857)
+2025-11-15 15:36:07,087 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,190 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.856)
+2025-11-15 15:36:07,190 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,293 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.852)
+2025-11-15 15:36:07,293 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,396 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.848)
+2025-11-15 15:36:07,396 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,498 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.849)
+2025-11-15 15:36:07,498 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,601 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.844)
+2025-11-15 15:36:07,601 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,703 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.838)
+2025-11-15 15:36:07,704 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:07,906 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.836)
+2025-11-15 15:36:07,906 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,009 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.829)
+2025-11-15 15:36:08,009 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,111 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.829)
+2025-11-15 15:36:08,111 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,214 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.823)
+2025-11-15 15:36:08,214 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,316 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.819)
+2025-11-15 15:36:08,317 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,519 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.814)
+2025-11-15 15:36:08,519 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,622 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.807)
+2025-11-15 15:36:08,622 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,825 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:36:08,825 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:08,927 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:08,927 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,030 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:36:09,031 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,133 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.804)
+2025-11-15 15:36:09,133 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,236 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.804)
+2025-11-15 15:36:09,236 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,338 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:09,339 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,441 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:09,441 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,644 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:09,644 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,746 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:09,747 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:09,949 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:09,950 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,052 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:10,052 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,154 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:36:10,154 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,257 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:36:10,257 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,359 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.806)
+2025-11-15 15:36:10,359 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,462 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:36:10,462 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,565 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.804)
+2025-11-15 15:36:10,565 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,667 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.801)
+2025-11-15 15:36:10,668 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,770 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.799)
+2025-11-15 15:36:10,770 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,872 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.794)
+2025-11-15 15:36:10,872 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:10,975 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.790)
+2025-11-15 15:36:10,975 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,077 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:11,078 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,180 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.781)
+2025-11-15 15:36:11,180 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,282 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.779)
+2025-11-15 15:36:11,282 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,385 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:11,385 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,488 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.766)
+2025-11-15 15:36:11,488 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,590 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.758)
+2025-11-15 15:36:11,590 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,693 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.751)
+2025-11-15 15:36:11,693 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,795 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.745)
+2025-11-15 15:36:11,796 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:11,898 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.742)
+2025-11-15 15:36:11,898 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,001 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.739)
+2025-11-15 15:36:12,001 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,103 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.735)
+2025-11-15 15:36:12,103 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,206 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.729)
+2025-11-15 15:36:12,206 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,308 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.724)
+2025-11-15 15:36:12,308 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,411 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.722)
+2025-11-15 15:36:12,411 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,513 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.712)
+2025-11-15 15:36:12,513 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,616 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.714)
+2025-11-15 15:36:12,616 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,718 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.720)
+2025-11-15 15:36:12,718 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,821 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.720)
+2025-11-15 15:36:12,821 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:12,923 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.725)
+2025-11-15 15:36:12,924 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,026 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.733)
+2025-11-15 15:36:13,027 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,129 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.733)
+2025-11-15 15:36:13,129 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,232 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.748)
+2025-11-15 15:36:13,232 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,335 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.750)
+2025-11-15 15:36:13,335 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,438 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.756)
+2025-11-15 15:36:13,438 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,541 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.758)
+2025-11-15 15:36:13,541 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,644 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.762)
+2025-11-15 15:36:13,644 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,747 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.766)
+2025-11-15 15:36:13,747 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,849 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:13,849 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:13,952 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.780)
+2025-11-15 15:36:13,952 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,054 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.777)
+2025-11-15 15:36:14,054 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,156 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.749)
+2025-11-15 15:36:14,156 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,259 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:14,259 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,361 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.808)
+2025-11-15 15:36:14,362 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,464 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.832)
+2025-11-15 15:36:14,464 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,566 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.835)
+2025-11-15 15:36:14,566 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,669 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.841)
+2025-11-15 15:36:14,669 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,772 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.838)
+2025-11-15 15:36:14,772 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,874 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.844)
+2025-11-15 15:36:14,874 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:14,977 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.843)
+2025-11-15 15:36:14,977 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,079 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.835)
+2025-11-15 15:36:15,079 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,181 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.836)
+2025-11-15 15:36:15,181 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,284 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.830)
+2025-11-15 15:36:15,284 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,387 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.825)
+2025-11-15 15:36:15,387 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,490 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.825)
+2025-11-15 15:36:15,490 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,592 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.813)
+2025-11-15 15:36:15,592 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,694 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.813)
+2025-11-15 15:36:15,694 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,796 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.808)
+2025-11-15 15:36:15,797 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:15,899 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.795)
+2025-11-15 15:36:15,899 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,001 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.797)
+2025-11-15 15:36:16,002 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,104 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.791)
+2025-11-15 15:36:16,105 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,207 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.791)
+2025-11-15 15:36:16,207 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,309 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.790)
+2025-11-15 15:36:16,309 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,412 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.788)
+2025-11-15 15:36:16,412 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,515 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.787)
+2025-11-15 15:36:16,515 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,618 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:16,618 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,720 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:16,721 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,823 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:16,823 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:16,926 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:16,926 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,028 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:17,028 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,131 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:17,131 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,233 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:17,234 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,336 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:17,337 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,439 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:17,439 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,541 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:17,541 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,644 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:17,644 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,746 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:17,746 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,849 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:17,849 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:17,951 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:17,952 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,054 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,054 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,156 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,157 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,259 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,259 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,361 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,361 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,464 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:18,464 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,566 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:18,566 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,668 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,668 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,771 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:18,771 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,873 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.781)
+2025-11-15 15:36:18,873 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:18,976 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.781)
+2025-11-15 15:36:18,976 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,079 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.781)
+2025-11-15 15:36:19,079 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,181 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:19,181 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,283 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:19,284 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,386 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:19,386 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,488 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:19,489 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,591 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:19,591 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,793 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:19,793 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:19,896 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:19,896 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,100 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:20,100 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,202 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:20,203 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,405 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:20,405 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,508 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:20,508 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,710 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:20,710 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:20,813 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:20,813 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,016 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.786)
+2025-11-15 15:36:21,016 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,119 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.786)
+2025-11-15 15:36:21,119 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,321 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:21,321 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,424 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:21,424 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,526 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:21,527 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,629 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:21,629 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,731 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:21,731 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,834 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:21,834 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:21,936 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:21,936 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,039 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:22,040 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,142 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:22,143 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,245 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,245 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,347 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,347 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,450 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,450 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,552 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,552 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,655 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,655 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,757 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,758 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,860 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.783)
+2025-11-15 15:36:22,860 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:22,963 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.782)
+2025-11-15 15:36:22,963 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,065 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.784)
+2025-11-15 15:36:23,065 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,167 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.787)
+2025-11-15 15:36:23,167 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,270 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.778)
+2025-11-15 15:36:23,270 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,372 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.770)
+2025-11-15 15:36:23,373 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,475 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.757)
+2025-11-15 15:36:23,475 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,578 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.714)
+2025-11-15 15:36:23,578 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,680 - vision_processor - INFO - 最佳匹配: 安踏灰色长裤 (相似度: 0.691)
+2025-11-15 15:36:23,680 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,782 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.684)
+2025-11-15 15:36:23,782 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,884 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.769)
+2025-11-15 15:36:23,885 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:23,986 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.769)
+2025-11-15 15:36:23,987 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,089 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.762)
+2025-11-15 15:36:24,089 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,191 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.732)
+2025-11-15 15:36:24,192 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,295 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.726)
+2025-11-15 15:36:24,295 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,398 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.688)
+2025-11-15 15:36:24,398 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,500 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.660)
+2025-11-15 15:36:24,500 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,603 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.655)
+2025-11-15 15:36:24,603 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,706 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.634)
+2025-11-15 15:36:24,707 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,809 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.616)
+2025-11-15 15:36:24,809 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:24,912 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.621)
+2025-11-15 15:36:24,912 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,014 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.655)
+2025-11-15 15:36:25,015 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,117 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.667)
+2025-11-15 15:36:25,117 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,219 - vision_processor - INFO - 最佳匹配: 安踏白色短袖 (相似度: 0.662)
+2025-11-15 15:36:25,219 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,322 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.719)
+2025-11-15 15:36:25,322 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,424 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.767)
+2025-11-15 15:36:25,424 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,526 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.767)
+2025-11-15 15:36:25,526 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,629 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.793)
+2025-11-15 15:36:25,629 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,731 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.799)
+2025-11-15 15:36:25,731 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,834 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.798)
+2025-11-15 15:36:25,834 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:25,937 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.797)
+2025-11-15 15:36:25,937 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,040 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.795)
+2025-11-15 15:36:26,040 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,142 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.793)
+2025-11-15 15:36:26,142 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,244 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.791)
+2025-11-15 15:36:26,244 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,347 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.808)
+2025-11-15 15:36:26,347 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,449 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.823)
+2025-11-15 15:36:26,449 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,551 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.842)
+2025-11-15 15:36:26,552 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,654 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.934)
+2025-11-15 15:36:26,654 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,756 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.948)
+2025-11-15 15:36:26,757 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:26,859 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.963)
+2025-11-15 15:36:26,859 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,062 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.954)
+2025-11-15 15:36:27,062 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,164 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.943)
+2025-11-15 15:36:27,164 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,367 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.935)
+2025-11-15 15:36:27,367 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,469 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.927)
+2025-11-15 15:36:27,470 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,672 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.922)
+2025-11-15 15:36:27,672 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,775 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.913)
+2025-11-15 15:36:27,775 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:27,977 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.898)
+2025-11-15 15:36:27,978 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,080 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.881)
+2025-11-15 15:36:28,081 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,183 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.883)
+2025-11-15 15:36:28,183 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,285 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.863)
+2025-11-15 15:36:28,286 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,388 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.816)
+2025-11-15 15:36:28,388 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,490 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.706)
+2025-11-15 15:36:28,490 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,593 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.711)
+2025-11-15 15:36:28,593 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,695 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.737)
+2025-11-15 15:36:28,695 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,798 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.732)
+2025-11-15 15:36:28,798 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:28,900 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.731)
+2025-11-15 15:36:28,900 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,003 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.730)
+2025-11-15 15:36:29,004 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,106 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.720)
+2025-11-15 15:36:29,107 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,209 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.720)
+2025-11-15 15:36:29,209 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,311 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.697)
+2025-11-15 15:36:29,311 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,414 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.681)
+2025-11-15 15:36:29,414 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,516 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.683)
+2025-11-15 15:36:29,516 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,619 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.667)
+2025-11-15 15:36:29,619 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,722 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.664)
+2025-11-15 15:36:29,722 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,825 - vision_processor - INFO - 最佳匹配: 耐克灰色长裤 (相似度: 0.670)
+2025-11-15 15:36:29,825 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:29,928 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.687)
+2025-11-15 15:36:29,928 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,030 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.681)
+2025-11-15 15:36:30,031 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,133 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.679)
+2025-11-15 15:36:30,133 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,236 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.699)
+2025-11-15 15:36:30,236 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,339 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.730)
+2025-11-15 15:36:30,339 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,442 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.735)
+2025-11-15 15:36:30,442 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,544 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.745)
+2025-11-15 15:36:30,545 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,647 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.754)
+2025-11-15 15:36:30,647 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,749 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.760)
+2025-11-15 15:36:30,750 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,851 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.763)
+2025-11-15 15:36:30,852 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:30,954 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.726)
+2025-11-15 15:36:30,954 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,056 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.707)
+2025-11-15 15:36:31,056 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,158 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.711)
+2025-11-15 15:36:31,159 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,261 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.717)
+2025-11-15 15:36:31,261 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,363 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.717)
+2025-11-15 15:36:31,363 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,466 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.723)
+2025-11-15 15:36:31,466 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,568 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.712)
+2025-11-15 15:36:31,569 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,671 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.711)
+2025-11-15 15:36:31,672 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,774 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.717)
+2025-11-15 15:36:31,774 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,876 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.719)
+2025-11-15 15:36:31,877 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:31,979 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.718)
+2025-11-15 15:36:31,979 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,081 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.729)
+2025-11-15 15:36:32,081 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,183 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.731)
+2025-11-15 15:36:32,184 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,286 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.734)
+2025-11-15 15:36:32,286 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,388 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.743)
+2025-11-15 15:36:32,388 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,491 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.743)
+2025-11-15 15:36:32,491 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,694 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.756)
+2025-11-15 15:36:32,694 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:32,796 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.755)
+2025-11-15 15:36:32,797 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,000 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.764)
+2025-11-15 15:36:33,000 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,102 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.778)
+2025-11-15 15:36:33,102 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,305 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.811)
+2025-11-15 15:36:33,305 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,407 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.835)
+2025-11-15 15:36:33,408 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,610 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.828)
+2025-11-15 15:36:33,610 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,712 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.792)
+2025-11-15 15:36:33,713 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:33,915 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.767)
+2025-11-15 15:36:33,915 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,017 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.768)
+2025-11-15 15:36:34,017 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,220 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.755)
+2025-11-15 15:36:34,220 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,323 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.740)
+2025-11-15 15:36:34,323 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,526 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.735)
+2025-11-15 15:36:34,526 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,629 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.757)
+2025-11-15 15:36:34,629 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,731 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.764)
+2025-11-15 15:36:34,731 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,834 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.778)
+2025-11-15 15:36:34,834 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:34,936 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.786)
+2025-11-15 15:36:34,936 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,038 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.788)
+2025-11-15 15:36:35,039 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,141 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.786)
+2025-11-15 15:36:35,141 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,243 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.781)
+2025-11-15 15:36:35,243 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,345 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.782)
+2025-11-15 15:36:35,346 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,448 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.786)
+2025-11-15 15:36:35,448 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,550 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.789)
+2025-11-15 15:36:35,550 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,653 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.788)
+2025-11-15 15:36:35,653 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,755 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.794)
+2025-11-15 15:36:35,756 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,858 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.800)
+2025-11-15 15:36:35,858 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:35,961 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.816)
+2025-11-15 15:36:35,961 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,063 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.833)
+2025-11-15 15:36:36,063 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,166 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.816)
+2025-11-15 15:36:36,166 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,268 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.762)
+2025-11-15 15:36:36,268 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,371 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.758)
+2025-11-15 15:36:36,371 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,473 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.758)
+2025-11-15 15:36:36,473 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,677 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.756)
+2025-11-15 15:36:36,677 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,780 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.749)
+2025-11-15 15:36:36,780 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,882 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.735)
+2025-11-15 15:36:36,882 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:36,985 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.732)
+2025-11-15 15:36:36,985 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,087 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.752)
+2025-11-15 15:36:37,087 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,189 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.734)
+2025-11-15 15:36:37,190 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,292 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.743)
+2025-11-15 15:36:37,292 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,394 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.750)
+2025-11-15 15:36:37,394 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,497 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.753)
+2025-11-15 15:36:37,497 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,599 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.756)
+2025-11-15 15:36:37,599 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,701 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.761)
+2025-11-15 15:36:37,702 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:37,804 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.767)
+2025-11-15 15:36:37,804 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,006 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.778)
+2025-11-15 15:36:38,006 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,109 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.778)
+2025-11-15 15:36:38,109 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,311 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.779)
+2025-11-15 15:36:38,311 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,414 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.780)
+2025-11-15 15:36:38,414 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,617 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.777)
+2025-11-15 15:36:38,617 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,719 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.776)
+2025-11-15 15:36:38,720 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:38,922 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.782)
+2025-11-15 15:36:38,922 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,025 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.779)
+2025-11-15 15:36:39,025 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,228 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.778)
+2025-11-15 15:36:39,228 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,330 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.777)
+2025-11-15 15:36:39,330 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,432 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.766)
+2025-11-15 15:36:39,432 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,535 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.767)
+2025-11-15 15:36:39,535 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,637 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.756)
+2025-11-15 15:36:39,637 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,740 - vision_processor - INFO - 最佳匹配: 耐克黄色短袖 (相似度: 0.746)
+2025-11-15 15:36:39,740 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,842 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.758)
+2025-11-15 15:36:39,842 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:39,945 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.784)
+2025-11-15 15:36:39,945 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,048 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.797)
+2025-11-15 15:36:40,048 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,151 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.803)
+2025-11-15 15:36:40,151 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,253 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.810)
+2025-11-15 15:36:40,253 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,355 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.813)
+2025-11-15 15:36:40,355 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,458 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.817)
+2025-11-15 15:36:40,458 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,561 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.819)
+2025-11-15 15:36:40,561 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,663 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.818)
+2025-11-15 15:36:40,664 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,766 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.821)
+2025-11-15 15:36:40,766 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,869 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.819)
+2025-11-15 15:36:40,869 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:40,971 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.819)
+2025-11-15 15:36:40,972 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,074 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.819)
+2025-11-15 15:36:41,074 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,176 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.816)
+2025-11-15 15:36:41,177 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,279 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.811)
+2025-11-15 15:36:41,279 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,381 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.811)
+2025-11-15 15:36:41,381 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,483 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.807)
+2025-11-15 15:36:41,483 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,585 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.801)
+2025-11-15 15:36:41,586 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,688 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.796)
+2025-11-15 15:36:41,688 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,791 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.793)
+2025-11-15 15:36:41,791 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,893 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.789)
+2025-11-15 15:36:41,893 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:41,996 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.784)
+2025-11-15 15:36:41,996 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,098 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.780)
+2025-11-15 15:36:42,098 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,201 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.780)
+2025-11-15 15:36:42,201 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,303 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.773)
+2025-11-15 15:36:42,304 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,406 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.763)
+2025-11-15 15:36:42,406 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,509 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.759)
+2025-11-15 15:36:42,509 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,611 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.751)
+2025-11-15 15:36:42,611 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,714 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.750)
+2025-11-15 15:36:42,714 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,817 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.779)
+2025-11-15 15:36:42,817 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:42,919 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.804)
+2025-11-15 15:36:42,919 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,021 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.957)
+2025-11-15 15:36:43,022 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,124 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.984)
+2025-11-15 15:36:43,124 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,226 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.978)
+2025-11-15 15:36:43,226 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,329 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.980)
+2025-11-15 15:36:43,329 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,431 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.979)
+2025-11-15 15:36:43,431 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,534 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.977)
+2025-11-15 15:36:43,534 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,636 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.970)
+2025-11-15 15:36:43,636 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,739 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.971)
+2025-11-15 15:36:43,739 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:43,942 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.962)
+2025-11-15 15:36:43,942 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,044 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.954)
+2025-11-15 15:36:44,044 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,247 - vision_processor - INFO - 最佳匹配: 安踏黄色长袖 (相似度: 0.937)
+2025-11-15 15:36:44,247 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,349 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.931)
+2025-11-15 15:36:44,349 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,552 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.919)
+2025-11-15 15:36:44,552 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,655 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.904)
+2025-11-15 15:36:44,655 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,858 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.886)
+2025-11-15 15:36:44,858 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:44,960 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.859)
+2025-11-15 15:36:44,960 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,163 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.825)
+2025-11-15 15:36:45,163 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,266 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.785)
+2025-11-15 15:36:45,266 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,368 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:45,368 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,471 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.771)
+2025-11-15 15:36:45,471 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,573 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.769)
+2025-11-15 15:36:45,573 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,675 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.771)
+2025-11-15 15:36:45,676 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,778 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:45,778 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,880 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:45,880 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:45,983 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.769)
+2025-11-15 15:36:45,983 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,085 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.768)
+2025-11-15 15:36:46,085 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,187 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.766)
+2025-11-15 15:36:46,187 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,289 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.766)
+2025-11-15 15:36:46,290 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,392 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.764)
+2025-11-15 15:36:46,392 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,495 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.764)
+2025-11-15 15:36:46,495 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,597 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.765)
+2025-11-15 15:36:46,597 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,699 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.765)
+2025-11-15 15:36:46,699 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,802 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.766)
+2025-11-15 15:36:46,802 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:46,904 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.768)
+2025-11-15 15:36:46,905 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,007 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.769)
+2025-11-15 15:36:47,007 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,110 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.769)
+2025-11-15 15:36:47,110 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,415 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:47,415 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,517 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:47,518 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,720 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:47,720 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,823 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:47,823 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:47,925 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:47,925 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,027 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:48,027 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,130 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:48,130 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,232 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,232 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,334 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,334 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,437 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.776)
+2025-11-15 15:36:48,437 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,540 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,540 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,642 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,642 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,745 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,745 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,847 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:48,847 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:48,949 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:48,949 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,052 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:49,052 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,154 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:49,155 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,257 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:49,257 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,360 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:49,360 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,463 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:49,463 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,565 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:49,565 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,667 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.771)
+2025-11-15 15:36:49,667 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,869 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.772)
+2025-11-15 15:36:49,869 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:49,971 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:49,971 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,073 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:50,073 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,175 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:50,176 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,277 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:50,278 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,379 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:50,380 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,481 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.773)
+2025-11-15 15:36:50,481 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,583 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:50,584 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,685 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:50,685 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,787 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:50,787 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:50,990 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:50,990 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:51,092 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:51,093 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:51,195 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:51,195 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:51,298 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.774)
+2025-11-15 15:36:51,298 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:36:51,401 - vision_processor - INFO - 最佳匹配: 安踏蓝色长袖 (相似度: 0.775)
+2025-11-15 15:36:51,401 - controller - ERROR - 搜索过程中发生错误: string indices must be integers
+2025-11-15 15:40:21,023 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:40:21,024 - vision_processor - INFO - [VisionProcessor] 使用模拟CLIP模型
+2025-11-15 15:40:21,136 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:40:21,237 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:40:21,426 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:40:21,426 - voice - INFO - 语音监听已启动
+2025-11-15 15:40:21,426 - controller - INFO - 识别循环开始
+2025-11-15 15:40:21,427 - root - INFO - 应用程序已启动
+2025-11-15 15:40:21,771 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:40:22,467 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.789)
+2025-11-15 15:40:25,473 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.787)
+2025-11-15 15:40:28,579 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.835)
+2025-11-15 15:40:31,684 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.850)
+2025-11-15 15:40:34,789 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.840)
+2025-11-15 15:40:37,894 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.839)
+2025-11-15 15:40:40,999 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.763)
+2025-11-15 15:40:44,104 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.719)
+2025-11-15 15:40:47,109 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.755)
+2025-11-15 15:40:50,115 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.729)
+2025-11-15 15:40:53,220 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.731)
+2025-11-15 15:40:56,325 - vision_processor - INFO - 当前帧匹配: 耐克白色短袖 (相似度: 0.763)
+2025-11-15 15:40:59,430 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.745)
+2025-11-15 15:41:02,535 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.764)
+2025-11-15 15:41:05,540 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.802)
+2025-11-15 15:41:08,545 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.763)
+2025-11-15 15:41:11,550 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.846)
+2025-11-15 15:41:14,655 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.724)
+2025-11-15 15:41:17,760 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.884)
+2025-11-15 15:41:20,865 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.812)
+2025-11-15 15:41:23,870 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.812)
+2025-11-15 15:41:26,875 - vision_processor - INFO - 当前帧匹配: 耐克白色短袖 (相似度: 0.762)
+2025-11-15 15:41:29,878 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.805)
+2025-11-15 15:41:32,883 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.836)
+2025-11-15 15:41:35,887 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.823)
+2025-11-15 15:41:38,893 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.855)
+2025-11-15 15:41:41,997 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.798)
+2025-11-15 15:48:10,886 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:48:10,886 - root - INFO - VLM模型路径存在: /mnt/data/modelscope_cache/hub/Qwen/Qwen2-VL-2B-Instruct
+2025-11-15 15:48:10,886 - vision_processor - INFO - [VisionProcessor] 使用VLM模型
+2025-11-15 15:48:10,896 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,904 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,925 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,930 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,935 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,945 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,960 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,975 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,980 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,984 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,989 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:10,999 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,003 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,007 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,011 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,019 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,023 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,043 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,047 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:11,047 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:48:11,149 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:48:11,339 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:48:11,340 - voice - INFO - 语音监听已启动
+2025-11-15 15:48:11,340 - controller - INFO - 识别循环开始
+2025-11-15 15:48:11,340 - root - INFO - 应用程序已启动
+2025-11-15 15:48:11,684 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:48:12,081 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:12,088 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:15,244 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:15,244 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:18,349 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:18,349 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:21,454 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:21,454 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:24,558 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:24,558 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:27,663 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:27,663 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:30,667 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:30,667 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:33,671 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:33,672 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:36,676 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:36,676 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:39,681 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:39,681 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:42,685 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:42,685 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:45,689 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:45,689 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:48,694 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:48,694 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:51,798 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:51,798 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:48:54,903 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:48:54,903 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:32,480 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 15:51:32,480 - root - INFO - VLM模型路径存在: /mnt/data/modelscope_cache/hub/Qwen/Qwen2-VL-2B-Instruct
+2025-11-15 15:51:32,480 - vision_processor - INFO - [VisionProcessor] 使用VLM模型
+2025-11-15 15:51:32,490 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,498 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,519 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,525 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,530 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,539 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,556 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,571 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,575 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,580 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,584 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,595 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,599 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,604 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,608 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,615 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,619 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,634 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,637 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:32,638 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 15:51:32,739 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 15:51:32,929 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 15:51:32,929 - voice - INFO - 语音监听已启动
+2025-11-15 15:51:32,929 - controller - INFO - 识别循环开始
+2025-11-15 15:51:32,930 - root - INFO - 应用程序已启动
+2025-11-15 15:51:33,274 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 15:51:33,963 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:33,963 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:37,069 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:37,070 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:40,175 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:40,175 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:43,179 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:43,180 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:46,284 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:46,284 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:49,389 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:49,389 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:52,493 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:52,494 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:55,599 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:55,599 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:51:58,704 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:51:58,704 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:01,809 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:01,810 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:05,014 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:05,015 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:08,120 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:08,120 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:11,225 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:11,226 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:14,230 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:14,231 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:17,233 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:17,233 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:20,237 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:20,238 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 15:52:23,242 - vision_processor - ERROR - 获取图像embedding时出错: 真实模型embedding接口未实现
+2025-11-15 15:52:23,242 - vision_processor - INFO - 当前帧匹配: 安踏蓝色长袖 (相似度: 0.000)
+2025-11-15 16:09:41,980 - vision_processor - INFO - [VisionProcessor] device=cpu
+2025-11-15 16:09:41,980 - vision_processor - INFO - [VisionProcessor] 使用VLM模型（模拟模式）
+2025-11-15 16:09:42,158 - vision_processor - INFO - [VisionProcessor] 已索引 19 个商品图像
+2025-11-15 16:09:42,259 - root - INFO - 正在启动FindSomething应用程序...
+2025-11-15 16:09:42,449 - camera_capture - INFO - 摄像头 0 已启动，分辨率设置为720p，最大帧率10fps
+2025-11-15 16:09:42,449 - voice - INFO - 语音监听已启动
+2025-11-15 16:09:42,450 - controller - INFO - 识别循环开始
+2025-11-15 16:09:42,450 - root - INFO - 应用程序已启动
+2025-11-15 16:09:42,794 - camera_capture - WARNING - 无法读取摄像头帧
+2025-11-15 16:09:43,880 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.707)
+2025-11-15 16:09:46,987 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.648)
+2025-11-15 16:09:50,093 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.649)
+2025-11-15 16:09:53,199 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.684)
+2025-11-15 16:09:56,406 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.558)
+2025-11-15 16:09:59,511 - vision_processor - INFO - 当前帧匹配: 安踏灰色长裤 (相似度: 0.571)
+2025-11-15 16:10:02,617 - vision_processor - INFO - 当前帧匹配: 耐克灰色长裤 (相似度: 0.649)
+2025-11-15 16:10:05,823 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.623)
+2025-11-15 16:10:09,030 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.597)
+2025-11-15 16:10:12,136 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.576)
+2025-11-15 16:10:15,242 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.701)
+2025-11-15 16:10:18,448 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.731)
+2025-11-15 16:10:21,552 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.753)
+2025-11-15 16:10:24,657 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.644)
+2025-11-15 16:10:27,863 - vision_processor - INFO - 当前帧匹配: 耐克白色短袖 (相似度: 0.612)
+2025-11-15 16:10:31,069 - vision_processor - INFO - 当前帧匹配: 耐克黄色短袖 (相似度: 0.602)
+2025-11-15 16:10:34,175 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.668)
+2025-11-15 16:10:37,281 - vision_processor - INFO - 当前帧匹配: 安踏白色长裤 (相似度: 0.574)
+2025-11-15 16:10:40,487 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.715)
+2025-11-15 16:10:43,691 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.738)
+2025-11-15 16:10:46,797 - vision_processor - INFO - 当前帧匹配: 耐克黄色短袖 (相似度: 0.640)
+2025-11-15 16:10:49,903 - vision_processor - INFO - 当前帧匹配: 耐克绿色短袖 (相似度: 0.615)
+2025-11-15 16:10:53,110 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.830)
+2025-11-15 16:10:56,316 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.553)
+2025-11-15 16:10:59,423 - vision_processor - INFO - 当前帧匹配: 耐克黑色短袖 (相似度: 0.581)
+2025-11-15 16:11:02,529 - vision_processor - INFO - 当前帧匹配: 安踏灰色长裤 (相似度: 0.575)

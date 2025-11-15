@@ -15,6 +15,12 @@ from pathlib import Path
 import json
 from collections import deque
 
+# 添加项目根目录到Python路径
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from vlm_handler import VLMHandler
+
 logger = logging.getLogger("vision_processor")
 
 # 配置：商品图片路径和规格信息路径
@@ -25,8 +31,10 @@ class VisionProcessor:
     def __init__(self, device=None):
         self.device = device or "cpu"
         logger.info(f"[VisionProcessor] device={self.device}")
-        # 模拟CLIP模型，实际项目中应替换为真实模型
-        logger.info("[VisionProcessor] 使用模拟CLIP模型")
+        
+        # 初始化VLM处理器，强制使用模拟模式
+        self.vlm_handler = VLMHandler(simulate=True)
+        logger.info("[VisionProcessor] 使用VLM模型（模拟模式）")
         
         # 控制识别频率
         self.last_recognition_time = 0
@@ -34,6 +42,11 @@ class VisionProcessor:
         
         # 滑动平均滤波：连续3帧识别为同一商品才确认
         self.recognition_history = deque(maxlen=3)
+        
+        # 连续帧确认机制
+        self.consecutive_frames = 3
+        self.similarity_threshold = 0.85
+        self.recent_results = deque(maxlen=self.consecutive_frames)
         
         # 记录上一个已确认的商品，避免重复输出
         self.last_product = None
@@ -45,20 +58,17 @@ class VisionProcessor:
         self._build_index()
 
     def _img_to_embedding(self, img_bgr):
-        # 模拟图像特征提取过程
-        # 实际项目中应使用CLIP模型提取真实特征
-        resized = cv2.resize(img_bgr, (224, 224))
-        # 简单的特征提取方法：计算颜色直方图
-        hist_b = cv2.calcHist([resized], [0], None, [8], [0, 256])
-        hist_g = cv2.calcHist([resized], [1], None, [8], [0, 256])
-        hist_r = cv2.calcHist([resized], [2], None, [8], [0, 256])
-        
-        # 将直方图展平并归一化
-        feature = np.concatenate([hist_b, hist_g, hist_r]).flatten()
-        norm = np.linalg.norm(feature)
-        if norm > 0:
-            feature = feature / norm
-        return feature
+        """
+        使用VLM模型获取图像embedding
+        """
+        try:
+            # 使用VLMHandler获取图像embedding
+            embedding = self.vlm_handler.get_image_embedding(img_bgr)
+            return embedding
+        except Exception as e:
+            logger.error(f"获取图像embedding时出错: {e}")
+            # 出错时返回零向量
+            return np.zeros(512)
 
     def _build_index(self):
         project_root = Path(__file__).parent.parent
@@ -66,7 +76,7 @@ class VisionProcessor:
         
         if not product_dir.exists():
             logger.warning(f"商品图片目录不存在: {product_dir}")
-            self.prod_embeddings = np.zeros((0, 24))  # 8*3 个特征
+            self.prod_embeddings = np.zeros((0, 512))  # VLM embedding维度
             return
             
         files = [f for f in product_dir.iterdir() if f.suffix.lower() in [".jpg", ".png"]]
@@ -90,7 +100,7 @@ class VisionProcessor:
         if embeddings:
             self.prod_embeddings = np.vstack(embeddings)
         else:
-            self.prod_embeddings = np.zeros((0, 24))  # 8*3 个特征
+            self.prod_embeddings = np.zeros((0, 512))  # VLM embedding维度
             
         logger.info(f"[VisionProcessor] 已索引 {len(self.product_files)} 个商品图像")
         
@@ -154,8 +164,18 @@ class VisionProcessor:
             
         emb = self.frame_to_embedding(frame)
         
-        # 计算余弦相似度（因为特征已归一化，所以直接点积）
-        sims = np.dot(self.prod_embeddings, emb)
+        # 计算余弦相似度
+        # 注意：由于我们现在使用的是改进的模拟embedding，需要确保向量已归一化
+        emb_norm = np.linalg.norm(emb)
+        if emb_norm > 0:
+            emb = emb / emb_norm
+            
+        prod_norms = np.linalg.norm(self.prod_embeddings, axis=1)
+        # 避免除零错误
+        prod_norms[prod_norms == 0] = 1
+        
+        # 计算余弦相似度
+        sims = np.dot(self.prod_embeddings, emb) / prod_norms
         
         if len(sims) == 0:
             return None, 0.0
@@ -174,4 +194,68 @@ class VisionProcessor:
         }
         
         logger.info(f"最佳匹配: {result['name']} (相似度: {score:.3f})")
-        return result, score
+        return result['name'], score
+    
+    def check_consecutive_match(self):
+        """
+        检查最近 N 帧是否连续识别到同一商品
+        """
+        if len(self.recent_results) < self.consecutive_frames:
+            return None, 0
+        
+        first = self.recent_results[0]
+        if first is None:
+            return None, 0
+            
+        first_product, first_score = first
+        
+        # 检查所有帧是否都是同一商品且相似度达标
+        for r in self.recent_results:
+            if r is None or r[0] != first_product or r[1] < self.similarity_threshold:
+                return None, 0
+        
+        # 返回商品名和平均相似度
+        avg_score = sum(r[1] for r in self.recent_results if r is not None) / len(self.recent_results)
+        return first_product, avg_score
+
+    def find_most_similar_stable(self, frame):
+        """
+        稳定版本的相似商品查找，使用连续帧确认机制
+        """
+        if self.prod_embeddings.shape[0] == 0 or frame is None:
+            return None, 0.0
+            
+        emb = self.frame_to_embedding(frame)
+        
+        # 计算余弦相似度
+        # 注意：由于我们现在使用的是改进的模拟embedding，需要确保向量已归一化
+        emb_norm = np.linalg.norm(emb)
+        if emb_norm > 0:
+            emb = emb / emb_norm
+            
+        prod_norms = np.linalg.norm(self.prod_embeddings, axis=1)
+        # 避免除零错误
+        prod_norms[prod_norms == 0] = 1
+        
+        # 计算余弦相似度
+        sims = np.dot(self.prod_embeddings, emb) / prod_norms
+        
+        if len(sims) == 0:
+            self.recent_results.append(None)
+            return self.check_consecutive_match()
+            
+        # 获取最佳匹配
+        best_idx = np.argmax(sims)
+        best_score = float(sims[best_idx])
+        best_product = self.names[best_idx]
+        
+        logger.info(f"当前帧匹配: {best_product} (相似度: {best_score:.3f})")
+        
+        # 添加当前帧结果到队列
+        if best_score >= self.similarity_threshold:
+            self.recent_results.append((best_product, best_score))
+        else:
+            self.recent_results.append(None)
+        
+        # 检查是否连续N帧识别到同一商品
+        return self.check_consecutive_match()

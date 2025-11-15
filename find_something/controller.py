@@ -47,7 +47,7 @@ class FindSomethingController:
         
         self.last_shown = None
         self.last_shown_time = 0
-        self.min_display_interval = 3.0  # 秒
+        self.min_display_interval = 10.0  # 增加最小显示间隔到10秒，避免频繁弹窗
         self.search_lock = threading.Lock()
         self.is_running = False
         self.search_thread = None
@@ -144,40 +144,23 @@ class FindSomethingController:
                 enhanced_frame = self._enhance_image(frame)
                 
                 # 使用VisionProcessor模型进行推理
-                result, score = self.vp.find_most_similar(enhanced_frame)
+                result, score = self.vp.find_most_similar_stable(enhanced_frame)
                 
-                # 更新检测缓冲区
-                self._update_detection_buffers(result, score, enhanced_frame)
-                
-                # 显示检测中提示
-                if len(self.detection_buffer) > 0 and len(self.detection_buffer) < 3:
-                    self.root.after(0, self.gui.show_detecting)
-                
-                # 检查是否满足稳定的识别条件
-                if self._is_stable_detection():
-                    name = result['name']
+                # 检查结果是否有效
+                if result is not None and score >= 0.85:
+                    name = result  # result现在是字符串而不是字典
                     now = time.time()
+                    # 检查是否满足显示条件（不是同一商品或距离上次显示时间足够长）
                     if name != self.last_shown or (now - self.last_shown_time) > self.min_display_interval:
                         self.last_shown = name
                         self.last_shown_time = now
                         # 在主线程创建弹窗
-                        self.root.after(0, lambda r=result, s=score: self._show_product(r, s))
-                        # 重置检测状态
-                        self._reset_detection_state()
-                elif len(self.detection_buffer) >= 3:
-                    # 如果缓冲区满了但仍未满足稳定条件，则重置状态
-                    self._reset_detection_state()
-                    self.root.after(0, self.gui.hide_detecting)
-                else:
-                    # 继续检测，保持检测中提示
-                    pass
+                        self.root.after(0, lambda n=name, s=score: self._show_product(n, s))
                         
                 # 控制识别频率，每3秒识别一次
                 time.sleep(3.0)
             except Exception as e:
-                logger.error(f"搜索过程中发生错误: {e}")
-                # 遇到错误时隐藏检测中提示
-                self.root.after(0, self.gui.hide_detecting)
+                logger.error(f"搜索过程中发生错误: {e}", exc_info=True)
             finally:
                 self.search_lock.release()
         logger.info("识别循环结束")
@@ -275,6 +258,8 @@ class FindSomethingController:
                 # 尝试清除 VisionProcessor 中的识别历史（如果存在）
                 if hasattr(self.vp, 'recognition_history'):
                     self.vp.recognition_history.clear()
+                if hasattr(self.vp, 'recent_results'):
+                    self.vp.recent_results.clear()
                 logger.info("通过语音关闭当前窗口并清除识别历史")
                 break
                 
@@ -298,6 +283,8 @@ class FindSomethingController:
             # 同时尝试清除视觉处理器中的识别历史
             if hasattr(self.vp, 'recognition_history'):
                 self.vp.recognition_history.clear()
+            if hasattr(self.vp, 'recent_results'):
+                self.vp.recent_results.clear()
             
     def _return_to_main_page(self):
         """
@@ -314,26 +301,25 @@ class FindSomethingController:
         self.__init__(self.root)
         self.start_application()
     
-    def _show_product(self, result, score):
+    def _show_product(self, product_name, score):
         """显示产品信息"""
         try:
-            if not result or 'name' not in result:
+            if not product_name:
                 logger.warning("无效的识别结果")
                 return
                 
             # 获取完整的产品信息
-            product_info = self.vp.get_product_info(result['name'])
+            product_info = self.vp.get_product_info(product_name)
             if not product_info:
-                logger.warning(f"未找到产品信息: {result['name']}")
+                logger.warning(f"未找到产品信息: {product_name}")
                 return
             
             # 确保必要的字段存在
             product_info = product_info.copy()  # 避免修改原始数据
             
-            # 添加图像路径和相似度信息
-            product_info["image_path"] = result.get('image', '')
+            # 添加相似度信息
             product_info["similarity"] = float(score)
-            product_info["name"] = result['name']
+            product_info["name"] = product_name
             
             # 处理价格信息
             if "price" in product_info:

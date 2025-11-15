@@ -88,25 +88,15 @@ class VLMInference:
                     "message": "输入图像数据为空"
                 }
             
-            # 使用视觉处理器找到最相似的商品
-            product_name, similarity_score = self.vision_processor.find_most_similar(image_data)
+            # 使用改进的视觉处理器找到最相似的商品（稳定版本）
+            product_name, similarity_score = self.vision_processor.find_most_similar_stable(image_data)
             
-            if product_name is None or similarity_score < 0.5:  # 设置相似度阈值
+            if product_name is None or similarity_score < 0.85:  # 提高相似度阈值
                 logging.info("未找到足够相似的商品")
-                # 作为备选方案，使用VLM文本识别
-                vlm_result = self.vlm_handler.recognize_image(image_data)
-                logging.info(f"VLM识别结果: {vlm_result}")
-                
-                # 尝试根据VLM结果匹配商品
-                matched_product = self._match_product_by_vlm_result(vlm_result)
-                if matched_product:
-                    product_name = matched_product
-                    similarity_score = 0.7  # 假定的相似度
-                else:
-                    return {
-                        "status": "success",
-                        "data": []
-                    }
+                return {
+                    "status": "success",
+                    "data": []
+                }
             
             # 获取产品详细信息
             product_info = self.vision_processor.get_product_info(product_name)
@@ -136,60 +126,6 @@ class VLMInference:
             }
             return result
             
-    def _match_product_by_vlm_result(self, vlm_result):
-        """
-        根据VLM识别结果匹配商品
-        
-        Args:
-            vlm_result (str): VLM识别结果文本
-            
-        Returns:
-            str or None: 匹配到的产品名称
-        """
-        if not vlm_result:
-            return None
-            
-        # 简单的关键词匹配逻辑
-        # 在实际应用中，这可以使用更复杂的NLP技术
-        keywords = vlm_result.lower()
-        
-        # 遍历所有产品，寻找最佳匹配
-        best_match = None
-        best_score = 0
-        
-        for product_name in self.product_data.keys():
-            # 计算匹配分数
-            score = 0
-            product_lower = product_name.lower()
-            
-            # 简单的关键词匹配
-            if "红色" in keywords and "红色" in product_lower:
-                score += 1
-            if "蓝色" in keywords and "蓝色" in product_lower:
-                score += 1
-            if "绿色" in keywords and "绿色" in product_lower:
-                score += 1
-            if "白色" in keywords and "白色" in product_lower:
-                score += 1
-            if "黑色" in keywords and "黑色" in product_lower:
-                score += 1
-            if "黄色" in keywords and "黄色" in product_lower:
-                score += 1
-            if "灰色" in keywords and "灰色" in product_lower:
-                score += 1
-                
-            if "短袖" in keywords and "短袖" in product_lower:
-                score += 1
-            if "长袖" in keywords and "长袖" in product_lower:
-                score += 1
-            if "长裤" in keywords and "长裤" in product_lower:
-                score += 1
-                
-            if score > best_score:
-                best_score = score
-                best_match = product_name
-                
-        return best_match if best_score > 0 else None
 
 if __name__ == "__main__":
     # 测试代码
